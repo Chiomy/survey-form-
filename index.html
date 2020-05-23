@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head id="title">
+  <head>
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
 
   <body>
-    <h1 id="description"> freeCodeCamp Survey Form </h1>
+    <h1 id="title"> freeCodeCamp Survey Form </h1>
     <p id="description">Thank you for taking the time to help us improve the platform</p>
 
     <form action="" id="survey-form">
       
-      <label for="" required  for="name" id="name-label">Name</label> <br>
-      <input type="text" id="name" placeholder="Enter your name"/> <br>
+      <label id="name-label" for="name" required >Name</label> <br>
+      <input id="name" type="text"  placeholder="Enter your name" required/> <br>
   
-      <label for="email" id="email-label">Email</label> <br>
-      <input type="email" id="email" placeholder="Enter your email"/> <br>
+      <label id="email-label" for="email" >Email</label> <br>
+      <input id="email" type="email" placeholder="Enter your email" required/> <br>
       
-      <label for="age" id="number-label">Age (Optional)</label> <br>
-      <input type="number" id="number" min="16" max="60" placeholder="Age"> <br>
+      <label id="number-label" for="age" >Age (Optional)</label> <br>
+      <input id="number" type="number"  min="16" max="60" placeholder="Enter your Age" required/> <br>
     
       <label for="">Which option best describes your current role?</label> <br>
 
@@ -32,57 +32,58 @@
       <option value="Others">Others</option>
       </select> <br>
 
-      <input type="radio" id="definately" value="Definately" name="definately">
+      <label for="">Would you recommend freeCodeCamp to a friend?</label> <br>
+      <input type="radio" id="definately" value="Definately" name="group1">
       <label for="definitely">Definately</label> <br> 
 
-      <input type="radio" id="maybe"value="May be" name="value"> 
-    <label for="maybe">May be</label> <br>
+      <input type="radio" id="maybe" value="Yes" name="group1">
+      <label for="maybe">May be</label> <br>
     
-    <input type="radio" id="not sure"value="Not sure" name="not sure"> 
-    <label for="Not sure">Not sure</label> <br>
+      <input type="radio" id="not sure"value="Not sure" name="group1"> 
+      <label for="Not sure">Not sure</label> <br>
 
-    <label for="">What is your favorite feature of freeCodeCamp?</label> <br>
-    <select id="role" name="role"> <br>
-      <option value="select an option">select an option</option>
-      <option value="Challenges">Challenges</option>
-      <option value="Projects">Projects</option>
-      <option value="Community">Community</option>
-      <option value="Open source">Open source</option>
-    </select> <br>
+      <label for="">What is your favorite feature of freeCodeCamp?</label> <br>
+      <select id="role" name="role"> <br>
+        <option value="select an option">select an option</option>
+        <option value="Challenges">Challenges</option>
+        <option value="Projects">Projects</option>
+        <option value="Community">Community</option>
+        <option value="Open source">Open source</option>
+      </select> <br>
 
     <label for="">What would you like to see improved? (Check all that apply)</label> <br>
 
-    <input type="checkbox" id="front-end"value="front-end">
+    <input type="checkbox" id="front-end" value="front-end">
     <label for="front-end">Front-end Projects</label> <br>
     
-    <input type="checkbox" id="Back-end"value="Back-end"> 
+    <input type="checkbox" id="Back-end" value="Back-end"> 
     <label for="Back-end">Back-end Projects</label> <br>
     
-    <input type="checkbox" id="data"value="data"> 
+    <input type="checkbox" id="data" value="data"> 
     <label for="data">Data visualization</label> <br>
 
-    <input type="checkbox" id="Challenges"value="Challenges"> 
+    <input type="checkbox" id="Challenges" value="Challenges"> 
     <label for="Challenges">Challenges</label> <br>
 
-    <input type="checkbox" id="opc"value="opc"> 
-    <label for="opc">Open sourcecommunity</label> <br>
+    <input type="checkbox" id="opc"value="open"> 
+    <label for="opc">Open source community</label> <br>
 
-    <input type="checkbox" id="Gitter"value="Gitter"> 
+    <input type="checkbox" id="Gitter" value="Gitter"> 
     <label for="Gitter">Gitter help rooms</label> <br>
 
-    <input type="checkbox" id="videos"value="Videos"> 
+    <input type="checkbox" id="videos" value="Videos"> 
     <label for="videos">Videos</label> <br>
 
-    <input type="checkbox" id="cmu"value="cmu"> 
-    <label for="cmu">City meet ups</label> <br>
+    <input type="checkbox" id="cmu"value="citymeetup"> 
+    <label for="citymeetup">City meet ups</label> <br>
 
-    <input type="checkbox" id="wiki"value="wiki"> 
+    <input type="checkbox" id="wiki" value="wiki"> 
     <label for="wiki">Wiki</label> <br>
 
-    <input type="checkbox" id="forum"value="forum"> 
+    <input type="checkbox" id="forum" value="forum"> 
     <label for="forum">Forum</label> <br>
 
-    <input type="checkbox" id="courses"value="courses"> 
+    <input type="checkbox" id="courses" value="courses"> 
     <label for="courses">Additional courses</label> <br>
 
 

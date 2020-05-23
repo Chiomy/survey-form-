@@ -1,0 +1,27 @@
+body {
+  padding: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #c4b3b3;
+}
+
+#email,
+#name,
+#number {
+  color: rgb(19, 16, 16);
+  font-size: 14px;
+}
+
+#radio {
+  margin-top: 12px;
+  color: rgb(41, 34, 34);
+  font-size: 14px;
+}
+
+textarea {
+  height: 150px;
+  color: rgb(37, 32, 32);
+  font-size: 15px;
+  border: 1px solid white;
+  padding: 10px;
+}
